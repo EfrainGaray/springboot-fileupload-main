@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "e69e9c6f-bae7-4b0f-a36d-98ac352a6ef0",
+		"name": "PROJECTS-DUOC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7215252"
+	},
+	"item": [
+		{
+			"name": "FILE-UPLOAD",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/uploadFile",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploadFile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FILE-DOWNLOAD",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
